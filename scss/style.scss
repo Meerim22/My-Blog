@@ -1,0 +1,91 @@
+.navbar-dark .nav-link .navbar-nav {
+    color: #fff;
+}
+
+.navbar-dark .nav-link .navbar-nav:hover {
+    background-color: hsl(0, 2%, 12%);
+}
+
+.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-dark:hover {
+    border-color: #fff;
+}
+
+.form {
+    margin: 0 0 0 460px;
+}
+.btn {
+    margin-left: 10px;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://storage.yandexcloud.net/vecherniymagadan.rf/uploads/common/2018/10/03/v_rossii_nachnet_veschanie_pervyiy_tsifrovoy_anime_kanal-79076-b.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#hero::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    position: relative;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    margin: 100px 0 0 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero .icon-box h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero .icon-box h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#hero .icon-box h3 a:hover {
+    color: rgb(78, 199, 230);
+}
+
+.icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icon-box:hover {
+    border-color: rgb(78, 199, 230);
+}
+
+.div-1 {
+    display: flex;
+    justify-content: space-around;
+}
